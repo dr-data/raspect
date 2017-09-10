@@ -1,0 +1,29 @@
+<!-- 42Lab Grid Section -->
+    <section id="42Lab" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">42Lab</h2>
+                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                </div>
+            </div>
+            <div class="row">
+            {% for post in site.posts %}
+                <div class="col-md-4 col-sm-6 42Lab-item">
+                    <a href="#42LabModal{{ post.modal-id }}" class="42Lab-link" data-toggle="modal">
+                        <div class="42Lab-hover">
+                            <div class="42Lab-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/42Lab/{{ post.thumbnail }}" class="img-responsive img-centered" alt="">
+                    </a>
+                    <div class="42Lab-caption">
+                        <h4>{{ post.title }}</h4>
+                        <p class="text-muted">{{ post.subtitle }}</p>
+                    </div>
+                </div>
+            {% endfor %}
+            </div>
+        </div>
+    </section>

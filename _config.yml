@@ -1,0 +1,45 @@
+---
+title: RaSpect
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+url: raspect.co
+baseurl: 
+email: data@9lab.co
+description: Big Data Intelligence Platform for Automated Non-destructive Inspection (NDT)
+
+people:
+- name: Harris Sun
+  pic: 1
+  position: CEO and Co-founder
+  social:
+  - title: linkedin
+    url: https://www.linkedin.com/in/harris-sun/
+
+- name: Dr.CK Ng
+  pic: 2
+  position: CTO and Co-founder 
+  social:
+  - title: twitter
+    url: https://twitter.com/Data_ng
+  - title: linkedin
+    url: https://hk.linkedin.com/in/datackng
+
+- name: Manfred Yuen
+  pic: 3
+  position: Architect Partner
+  social:
+  - title: linkedin
+    url: https://www.linkedin.com/in/manfred-yuen-5aa84213/
+
+address:
+- line: 1235, 12/F, International Industrial Building,
+- line:  175, Hoi Bun Road, Kwun Tong, Kowloon
+markdown: kramdown
+permalink: pretty
+
